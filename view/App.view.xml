@@ -1,0 +1,13 @@
+<mvc:View
+controllerName="sap.ui.chema.controller.App"
+xmlns="sap.m"
+xmlns:mvc="sap.ui.core.mvc">
+<Button 
+text="{i18n>showHelloButtonText}"
+press=".onShowInfo"/>
+<Input
+value="{/recipient/name}"
+description="Showing {/recipient/name}"
+valueLiveUpdate="true"
+width="60%"/>
+</mvc:View>
